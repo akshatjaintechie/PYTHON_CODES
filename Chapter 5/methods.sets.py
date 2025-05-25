@@ -1,0 +1,10 @@
+s={1,3,5,6,7,8,12,342,4}
+s1={4,567,8888,96,567,123,444,7}
+print(s,type(s))
+s.add(235)
+print(s,type(s))
+print(len(s)) 
+print(s,type(s))
+print(s.union(s1))
+print(s.intersection(s1))  
+print({4,123}.issubset(s1))
